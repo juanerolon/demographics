@@ -21,7 +21,7 @@ f.close()
 
 
 #Below we test using the geocoding api from Google maps services
-if True:
+if False:
     url = 'https://maps.googleapis.com/maps/api/geocode/json'
     params = {'sensor': 'false', 'address': '1020+Towhee Dr,+Shreveport,+LA', 'key':demo_key}
     r = requests.get(url, params=params)
@@ -38,7 +38,7 @@ if False:
 
 #dissentangle json to select fields appropiate for geotagging descriptors
 if True:
-    df = pd.read_json('geocode_test.json')
+    df = pd.read_json('geocode_test2.json')
 
 
     print("\n *json dataframe columns: \n")
