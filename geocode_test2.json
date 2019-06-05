@@ -1,0 +1,69 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "1020",
+               "short_name" : "1020",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Towhee Drive",
+               "short_name" : "Towhee Dr",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Shreveport",
+               "short_name" : "Shreveport",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "9",
+               "short_name" : "9",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Caddo Parish",
+               "short_name" : "Caddo Parish",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Louisiana",
+               "short_name" : "LA",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "United States",
+               "short_name" : "US",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "71106",
+               "short_name" : "71106",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "1020 Towhee Dr, Shreveport, LA 71106, USA",
+         "geometry" : {
+            "location" : {
+               "lat" : 32.3610668,
+               "lng" : -93.70980200000001
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 32.36241578029149,
+                  "lng" : -93.70845301970851
+               },
+               "southwest" : {
+                  "lat" : 32.3597178197085,
+                  "lng" : -93.71115098029152
+               }
+            }
+         },
+         "place_id" : "EikxMDIwIFRvd2hlZSBEciwgU2hyZXZlcG9ydCwgTEEgNzExMDYsIFVTQSIbEhkKFAoSCX931zwPKzGGEVWoAu8CcuMGEPwH",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}
