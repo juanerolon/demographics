@@ -21,9 +21,9 @@ f.close()
 
 
 #Below we test using the geocoding api from Google maps services
-if False:
+if True:
     url = 'https://maps.googleapis.com/maps/api/geocode/json'
-    params = {'sensor': 'false', 'address': '643+Summerville Dr,+Shreveport,+LA', 'key':demo_key}
+    params = {'sensor': 'false', 'address': '1020+Towhee Dr,+Shreveport,+LA', 'key':demo_key}
     r = requests.get(url, params=params)
     print(r.text)
 
